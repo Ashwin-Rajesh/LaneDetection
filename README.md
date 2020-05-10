@@ -9,7 +9,7 @@ Implemented using OpenCV Python API
 3) Detecting boundaries
 
 ## Overview
-This system is quite simple, much simpler than you might think. 
+This system is quite simple. 
 - First, the image feed is resized to a standard resolution, here, it is 1200 by 700.
 - Image is converted to grayscale since the edge detection algorithm works in grayscale.
 - Gaussian blur filter is applied to remove noise
@@ -21,3 +21,6 @@ This system is quite simple, much simpler than you might think.
 ## Edge detection
 - 'Canny' algorithm is used to detect edges. It is an improvement on the sobel filter. 
 - The sobel filter uses simple edge detection kernels
+### Sobel filter
+- The sobel filter convolves a kernel that looks like the one below, over the image
+![sobel filter image](/images/guide/sobel)
