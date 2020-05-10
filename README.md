@@ -26,4 +26,4 @@ This system is quite simple.
 
 ![sobel filter image](/images/guide/SobelVertical.png)
 ![sobel filter image](/images/guide/SobelHorizontal.png)
-![sobel filter convolution](/videos/guide/SobelConv.mp4)
+- The first kernel selects  vertical edges, because it is symmetrical about horizontal axis.
