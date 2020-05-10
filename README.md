@@ -33,4 +33,15 @@ This system is quite simple.
 
 ## Line detection
 - Line detection uses an algorithm called Hough transform
-- The lines are 
+- Simply said, for each point, the algorithm figures out parameters all lines that can pass through it. This is done for all points.
+- When the parmaters for possible lines for these points intersect at some point in the space of line parameters, Those line parameters will form the line that passes through all the points.
+- For imperfect lines, those parameters will not intersect for all points, but at some location, they will all pass close, if those points can form a line. This will be detected as a  line.
+- I know its hard to get a sense from this, please check out some videos, they will make it much more clear!
+
+## Line filtering and grouping
+- Now that we have our lines with us, we need to figure out the lane boundaries from them. First, lines that are too steep or too flat are removed.
+- Then, lines with a positive slope are categorized as part of the right boundary and those with negative slope as that of left boundary
+- Remeber that in images, the top-left corner is (0,0) and increases down and towards the right. This could be awkward, especially when talking about slope, for those of us used to normal cartesian space coordinates
+- Now, the average of slope and intercept for these lines that we categorized before are computed, and these are taken as boundary ofthe lane!
+
+Now, just take all that and do some math and overlay that on top of the original image! Thats it!
