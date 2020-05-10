@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This project implements a simple lane detection system using Canny edge detect and Hough transform algorithms.
 
 Implemented using OpenCV Python API
@@ -23,4 +23,4 @@ This system is quite simple.
 - The sobel filter uses simple edge detection kernels
 ### Sobel filter
 - The sobel filter convolves a kernel that looks like the one below, over the image
-![sobel filter image](/images/guide/sobel)
+![sobel filter image](/images/guide/SobelVertical)
