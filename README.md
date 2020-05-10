@@ -19,7 +19,7 @@ This system is quite simple.
 - Lines are filtered, and grouped into left and right boundary, and boundary lines are detected
 
 ## Edge detection
-- 'Canny' algorithm is used to detect edges. It is an improvement on the sobel filter. 
+- 'Canny' algorithm is used to detect edges. It is an improvement on the sobel filter edge detection algorithm. 
 - The sobel filter convolves a kernel that looks like the one below, over the image
 
 ![sobel filter image](/images/guide/SobelVertical.png)
@@ -27,9 +27,9 @@ This system is quite simple.
 - The first kernel selects  vertical edges, because it is symmetrical about horizontal axis.
 - Similarly, the  second kernel selects horizontal edges
 - Sobel filter otputs is not sharp and has a LOT of noise! This is solved by the canny algorithm
-- Canny algorithm output is really sharp! This is acchieved by a technique called non-max suppression.
+- Canny algorithm output is really sharp! This is achieved by a technique called non-max suppression.
 - It also has very low noise. This is done by a clever type of thresholding.
-- For understanding them in detail, theres a lot of great material! Check out computerphile!
+- For understanding this in detail, theres a lot of great material! Check out [computerphile](https://youtu.be/sRFM5IEqR2w)!
 
 ## Line detection
 - Line detection uses an algorithm called Hough transform
