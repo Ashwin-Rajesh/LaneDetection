@@ -23,4 +23,6 @@ This system is quite simple.
 - The sobel filter uses simple edge detection kernels
 ### Sobel filter
 - The sobel filter convolves a kernel that looks like the one below, over the image
-![sobel filter image](/images/guide/SobelVertical)
+
+![sobel filter image](/images/guide/SobelVertical.png)
+![sobel filter image](/images/guide/SobelHorizontal.png)
