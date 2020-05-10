@@ -20,8 +20,6 @@ This system is quite simple.
 
 ## Edge detection
 - 'Canny' algorithm is used to detect edges. It is an improvement on the sobel filter. 
-- The sobel filter uses simple edge detection kernels
-### Sobel filter
 - The sobel filter convolves a kernel that looks like the one below, over the image
 
 ![sobel filter image](/images/guide/SobelVertical.png)
@@ -32,3 +30,7 @@ This system is quite simple.
 - Canny algorithm output is really sharp! This is acchieved by a technique called non-max suppression.
 - It also has very low noise. This is done by a clever type of thresholding.
 - For understanding them in detail, theres a lot of great material! Check out computerphile!
+
+## Line detection
+- Line detection uses an algorithm called Hough transform
+- The lines are 
