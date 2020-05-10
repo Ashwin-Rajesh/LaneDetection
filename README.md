@@ -26,3 +26,4 @@ This system is quite simple.
 
 ![sobel filter image](/images/guide/SobelVertical.png)
 ![sobel filter image](/images/guide/SobelHorizontal.png)
+![sobel filter convolution](/videos/guide/SobelConv.mp4)
