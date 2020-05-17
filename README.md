@@ -35,8 +35,8 @@ This system is quite simple.
 - Line detection uses an algorithm called Hough transform
 - For each point in an image, there are a lot of lines that can pass thorough that point. If we represent all these lines using some parameters, say slope and y-intercept, then the parameters of all lines that could pass through a point will form a line in the transform space.
 - When the parmaters for possible lines for 2 points intersect at some point in the space of line parameters, Those line parameters will form the line that passes through the 2 points.
-- For imperfect lines, those parameters will not intersect for all points, but at some location, they will all pass close, if those points can form a line. This will be detected as a  line.
-- I know its hard to get a sense from this, please check out [some videos](https://youtu.be/6yVMpaIoxIU), they will make it easier to understand!
+- For imperfect lines, those parameters will not intersect for all points, but at some location, they will all pass close. This will be detected as a  line.
+- I know its hard to understand h=this completely from such shallow an explanation, please check out [some videos](https://youtu.be/6yVMpaIoxIU), they will make it easier to understand!
 
 ## Line filtering and grouping
 - Now that we have our detected lines with us, we need to figure out the lane boundaries from them. First, lines that are too steep or too flat are removed.
