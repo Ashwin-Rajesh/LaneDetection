@@ -45,3 +45,8 @@ This system is quite simple.
 - Now, the average of slope and intercept for these lines that we categorized before are computed, and these are taken as boundary ofthe lane!
 
 Now, just take all that and do some math and overlay that on top of the original image! Thats it!
+
+# Result
+- Here are some videos of the result:
+![vid/video1.mp4](Daytime driving)
+![vid/video2.mp4](Nighttime driving)
