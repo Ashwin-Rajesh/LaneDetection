@@ -46,6 +46,12 @@ This system is quite simple.
 
 Now, just take all that and do some math and overlay that on top of the original image! Thats it!
 
+## Exponentially weighted average
+- To make the line detections more smooth, a technique called exponnectial moving average is used.
+- A value called the moving sum is what represents the final lines. It is obtained by adding previous moving average to the current line detection.
+- The result is that sudden changes in the lane detections do not affect the result tooo much. As a side-effect, there is a slight delay when the lane detections move during turning and such.
+- The coefficients while adding previous sum and current detection need to be tweaked to get a balance between fast response and good stabilisation.
+
 # Result
 - Here are some videos of the result:
 ![Nighttime driving](video2.gif)
