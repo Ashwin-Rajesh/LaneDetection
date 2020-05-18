@@ -48,8 +48,4 @@ Now, just take all that and do some math and overlay that on top of the original
 
 # Result
 - Here are some videos of the result:
-<video controls="controls">
-  <source type="video/mp4" src="vid/video2.mp4"></source>
-  <source type="video/webm" src="vid/video2.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+![Nighttime driving](vid/video2.gif)
