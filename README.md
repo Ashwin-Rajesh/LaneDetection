@@ -9,7 +9,6 @@ Implemented using OpenCV Python API
 3) Detecting boundaries
 
 ## Overview
-This system is quite simple. 
 - First, the image feed is resized to a standard resolution, here, it is 1200 by 700.
 - Image is converted to grayscale since the edge detection algorithm works in grayscale.
 - Gaussian blur filter is applied to remove noise
