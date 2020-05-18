@@ -48,5 +48,8 @@ Now, just take all that and do some math and overlay that on top of the original
 
 # Result
 - Here are some videos of the result:
-![vid/video1.mp4](Daytime driving)
-![vid/video2.mp4](Nighttime driving)
+<video controls="controls">
+  <source type="video/mp4" src="vid/video2.mp4"></source>
+  <source type="video/webm" src="vid/video2.webm"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
