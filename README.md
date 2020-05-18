@@ -48,4 +48,4 @@ Now, just take all that and do some math and overlay that on top of the original
 
 # Result
 - Here are some videos of the result:
-![Nighttime driving](vid/video2.gif)
+![Nighttime driving](video2.gif)
